@@ -1,71 +1,46 @@
-COVID-19 Data Analysis and Visualization
-Project Overview
-This project performs Exploratory Data Analysis (EDA) on a global COVID-19 dataset using Python. The objective is to analyze pandemic trends, identify the most affected countries, and visualize key insights through data visualization techniques.
-Objectives
-Clean and preprocess COVID-19 dataset
-Analyze confirmed, recovered, and death cases
-Identify top 10 most affected countries
-Compare recovery and death distributions
-Explore relationships between COVID-19 metrics
-Visualize global confirmed cases trend over time
-Tools and Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Dataset Description
-The dataset contains global COVID-19 statistics including:
-Date
-Country/Region
-Confirmed Cases
-Deaths
-Recovered Cases
-Key Visualizations
-Top 10 Most Affected Countries
-A horizontal bar chart showing countries with the highest number of confirmed COVID-19 cases.
-Recovery vs Death Distribution
-A pie chart (donut chart style) comparing total recovered cases and total deaths globally.
-Correlation Heatmap
-A heatmap showing relationships between confirmed, deaths, and recovered cases.
-Daily Trend Analysis
-A line chart showing the trend of global confirmed COVID-19 cases over time.
-Key Insights
-Identified countries with the highest number of confirmed cases
-Observed global recovery and death distribution patterns
-Found correlation between confirmed, recovered, and death cases
-Analyzed how COVID-19 cases changed over time globally
-Project Structure
-COVID-19-Data-Analysis-and-Visualization/
-│
-├── covid_19_clean_complete.csv
-├── covid_analysis.py
-├── README.md
-│
-├── outputs/
-│ ├── top_10_countries.png
-│ ├── death_vs_recovery.png
-│ ├── correlation_heatmap.png
-│ └── daily_trend_analysis.png
-How to Run the Project
-Clone the Repository
-git clone <repository-link>
-Install Dependencies
-pip install pandas numpy matplotlib seaborn
-Run the Script
-python covid_analysis.py
-Skills Demonstrated
-Data Cleaning and Preprocessing
-Exploratory Data Analysis (EDA)
-Data Visualization
-Statistical Analysis
-Python Programming
-Data Storytelling
-Author
+#COVID-19 Data Analysis and Visualization
+
+##Project Overview
+This project focuses on analyzing global COVID-19 data to uncover key insights using data analysis and visualization techniques. The analysis highlights trends in confirmed cases, deaths, and recoveries across different countries and time periods.
+The goal is to transform raw COVID-19 data into meaningful visual insights using Python-based data analysis tools.
+
+---
+
+###Objectives
+-Analyze the spread of COVID-19 across countries
+-Identify the top affected countries
+-Compare deaths and recoveries globally
+-Study daily trends of confirmed cases
+-Understand correlations between different numerical features
+-Present insights through clear and informative visualizations
+
+---
+
+####Tools and Technologies Used
+    -Python 
+    -Pandas
+    -NumPy
+    -Matplotlib
+    -Seaborn
+    
+---
+
+###Key Analysis Performed
+-1. Top Affected Countries
+Identified and visualized the top 10 countries most impacted by COVID-19 based on confirmed cases.
+-2. Death vs Recovery Analysis
+Compared total deaths and recoveries to understand the recovery rate and severity across regions.
+-3. Correlation Heatmap
+Analyzed relationships between confirmed cases, deaths, recoveries, and other variables.
+-4. Daily Trend Analysis
+Studied the progression of COVID-19 cases over time to identify growth patterns and waves.
+
+---
+
+###Key Insights
+-Certain countries showed significantly higher case counts compared to others.
+-Recovery trends varied widely depending on healthcare response and timing.
+-Strong correlations were observed between confirmed cases and deaths in heavily affected regions.
+
+####Author
 Kritika
-B.Tech Computer Science and Engineering
-Aspiring Data Analyst / Data Scientist
-Project Outcome
-This project demonstrates the ability to analyze real-world datasets, extract meaningful insights, and present them through clear and effective visualizations using Python libraries.
-
-
