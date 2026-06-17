@@ -42,6 +42,8 @@ Studied the progression of COVID-19 cases over time to identify growth patterns 
 - Recovery trends varied widely depending on healthcare response and timing.
 - Strong correlations were observed between confirmed cases and deaths in heavily affected regions.
 
+---
+
 #### Author
 Kritika
 
