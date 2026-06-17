@@ -1,4 +1,4 @@
-# COVID-19 Data Analysis and Visualization
+# **COVID-19 Data Analysis and Visualization**
 
 ## Project Overview
 This project focuses on analyzing global COVID-19 data to uncover key insights using data analysis and visualization techniques. The analysis highlights trends in confirmed cases, deaths, and recoveries across different countries and time periods.
@@ -26,13 +26,13 @@ The goal is to transform raw COVID-19 data into meaningful visual insights using
 ---
 
 ### Key Analysis Performed
-- 1. Top Affected Countries
+-  Top Affected Countries
 Identified and visualized the top 10 countries most impacted by COVID-19 based on confirmed cases.
-- 2. Death vs Recovery Analysis
+-  Death vs Recovery Analysis
 Compared total deaths and recoveries to understand the recovery rate and severity across regions.
-- 3. Correlation Heatmap
+-  Correlation Heatmap
 Analyzed relationships between confirmed cases, deaths, recoveries, and other variables.
-- 4. Daily Trend Analysis
+-  Daily Trend Analysis
 Studied the progression of COVID-19 cases over time to identify growth patterns and waves.
 
 ---
